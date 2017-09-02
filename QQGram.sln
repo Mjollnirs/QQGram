@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HummerEngine", "HummerEngine\HummerEngine.vcxproj", "{12A983EF-169D-4E01-ADAE-C20539E3B09D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Core\Core.vcxproj", "{BD49DE62-7C3E-44AB-B7F5-219C5AC69D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLRHandler", "CLRHandler\CLRHandler.csproj", "{5D458938-4458-4F13-868E-A1C3AB122D48}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD49DE62-7C3E-44AB-B7F5-219C5AC69D0A} = {BD49DE62-7C3E-44AB-B7F5-219C5AC69D0A}
+		{12A983EF-169D-4E01-ADAE-C20539E3B09D} = {12A983EF-169D-4E01-ADAE-C20539E3B09D}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Public", "Public", "{B51278C9-76E0-4CFE-B1C3-B4A624E7C8DE}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12A983EF-169D-4E01-ADAE-C20539E3B09D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{12A983EF-169D-4E01-ADAE-C20539E3B09D}.Debug|Any CPU.Build.0 = Debug|Win32
+		{12A983EF-169D-4E01-ADAE-C20539E3B09D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{12A983EF-169D-4E01-ADAE-C20539E3B09D}.Release|Any CPU.Build.0 = Release|Win32
+		{BD49DE62-7C3E-44AB-B7F5-219C5AC69D0A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{BD49DE62-7C3E-44AB-B7F5-219C5AC69D0A}.Debug|Any CPU.Build.0 = Debug|Win32
+		{BD49DE62-7C3E-44AB-B7F5-219C5AC69D0A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{BD49DE62-7C3E-44AB-B7F5-219C5AC69D0A}.Release|Any CPU.Build.0 = Release|Win32
+		{5D458938-4458-4F13-868E-A1C3AB122D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D458938-4458-4F13-868E-A1C3AB122D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D458938-4458-4F13-868E-A1C3AB122D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D458938-4458-4F13-868E-A1C3AB122D48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07750E94-AD0B-4485-A3B7-EA7EE4FB3553}
+	EndGlobalSection
+EndGlobal
